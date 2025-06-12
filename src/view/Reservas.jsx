@@ -3,7 +3,7 @@ const Reservas = () => {
   return (
     <div >
         <a className="" 
-                href="https://reservas-front.onrender.com/reservas" 
+                href="https://nailsluly-react.onrender.com" 
                 target="_blank" 
                 rel="noopener noreferrer">
                  Reservas
