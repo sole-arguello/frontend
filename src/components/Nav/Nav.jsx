@@ -56,6 +56,11 @@ const Nav = () => {
                 Contact
               </Link>
             </li>
+            <li className="nav-item fs-4 px-4">
+              <Link to="/reservas" className="nav-link fw-bold">
+                Reservas
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>
