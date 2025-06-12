@@ -56,10 +56,17 @@ const Nav = () => {
                 Contact
               </Link>
             </li>
+
+            {/* link externo hacia la app */}
             <li className="nav-item fs-4 px-4">
-              <Link to="/reservas" className="nav-link fw-bold">
+              <a
+                href="https://reservas-front.onrender.com/reservas"
+                className="nav-link fw-bold text-warning"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Reservas
-              </Link>
+              </a>
             </li>
           </ul>
         </div>

@@ -2,7 +2,6 @@ import "./App.scss";
 import { Routes, Route } from "react-router-dom";
 import Nav from "./components/Nav/Nav";
 import { Contact, Gallery, Home, Services, Us } from "./view/Index";
-import Reservas from "./view/Reservas";
 
 function App() {
   return (
@@ -13,7 +12,6 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/reservas" element={<Reservas />} />
         <Route path="/us" element={<Us />} />
       </Routes>
     </div>
